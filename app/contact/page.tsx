@@ -13,9 +13,7 @@ export default function ContactPage() {
 
           <div className="space-y-8">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex ea commodo consequat.
+              Thank you for your interest in Golden Palm Manufacturers. Whether you are looking for detailed product specifications, requesting a quote for a bulk order, or simply have a question about our manufacturing capabilities, we are here to assist you. Please find our contact details below
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 pt-4">
@@ -45,32 +43,30 @@ export default function ContactPage() {
               <div className="space-y-6">
                 <div>
                   <h2 className="font-medium text-lg mb-2">Address</h2>
-                  <p className="text-muted-foreground">GOLDEN PALM MANUFACTURERS PVT. LTD.</p>
-                  <p className="text-muted-foreground">KADATHUR ROAD, VAYALUR</p>
-                  <p className="text-muted-foreground">MADATHUKULAM(POST),</p>
-                  <p className="text-muted-foreground">UDUMALPET,TAMILNADU,</p>
-                  <p className="text-muted-foreground">INDIA.</p>
+                  <p className="text-muted-foreground">Golden Palm Manufacturers Pvt. Ltd.</p>
+                  <p className="text-muted-foreground">Kadathur Road, Vayalur</p>
+                  <p className="text-muted-foreground">Madathukulam(Post),</p>
+                  <p className="text-muted-foreground">Udmalpet,Tamil Nadu,</p>
+                  <p className="text-muted-foreground">India</p>
                 </div>
 
                 <div>
                   <h2 className="font-medium text-lg mb-2">Inquiries</h2>
                   <p className="text-muted-foreground text-sm leading-relaxed">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident sunt in culpa qui officia deserunt mollit.
+                    For specific business inquiries, partnership opportunities, or detailed questions regarding export logistics and customization, please reach out to us directly. We value clear communication and aim to provide detailed responses to ensure we meet your specific requirements.
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="pt-8 mt-8 border-t border-border">
+            {/* <div className="pt-8 mt-8 border-t border-border">
               <p className="text-muted-foreground text-sm leading-relaxed">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud
                 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                 irure dolor in reprehenderit in voluptate velit esse cillum dolore.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </main>

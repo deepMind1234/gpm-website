@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+These are some quick instruction of how to get the website up and running on your own machine.
 
-## Getting Started
+Prerequisites
+You must have Node.js and npm installed on your system.
 
-First, run the development server:
+To check, run:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Bash
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+node -v
+npm -v
+(If you get an error, please install Node.js from the official website.)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Instructions
+Clone or Download the project files to your computer.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open your Terminal/Command Prompt and navigate to the root directory of the project:
 
-## Learn More
+Bash
 
-To learn more about Next.js, take a look at the following resources:
+cd /path/to/your/project
+Install Dependencies Download all necessary project packages:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Bash
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+npm install
+Start the Local Server Run the development script:
 
-## Deploy on Vercel
+Bash
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+npm start
+View the Website The terminal will usually show a URL like http://localhost:3000. Copy this URL and paste it into your web browser.

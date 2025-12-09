@@ -21,7 +21,7 @@ export function Footer() {
             <h3 className="font-medium text-sm uppercase tracking-wider mb-4">
               Products
             </h3>
-            <ul className="space-y-3">
+            <ul className="grid grid-cols-2 grid-rows-4 grid-flow-col gap-x-4 gap-y-3">
               {categories.map((category) => (
                 <li key={category.name}>
                   <Link href={`/categories/${category.slug}`} className="text-sm text-muted-foreground hover:text-foreground transition-colors">

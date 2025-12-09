@@ -3,6 +3,8 @@ import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import { Menu, Search } from 'lucide-react'
 
+import { categories } from '@/lib/categories'
+
 export function Header() {
   return (
     <header className="border-b border-border bg-background">
@@ -54,13 +56,13 @@ export function Header() {
               <div className="absolute left-0 top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                 <div className="w-56 rounded-md border border-border bg-popover p-2 shadow-md">
                   <div className="flex flex-col gap-1">
-                    {['Paper Plates', 'Cake Boxes', 'Gift Wrapping Paper', 'Gift Tissue Paper', 'Crinkle Cut Paper'].map((category) => (
+                    {categories.map((category) => (
                       <Link
-                        key={category}
-                        href={`/categories/${category.toLowerCase().replace(/ /g, '-')}`}
+                        key={category.name}
+                        href={`/categories/${category.slug}`}
                         className="block px-3 py-2 text-sm rounded-sm hover:bg-accent hover:text-accent-foreground transition-colors"
                       >
-                        {category}
+                        {category.name}
                       </Link>
                     ))}
                   </div>

@@ -37,7 +37,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
       <Header />
       <main className="py-16 lg:py-24 border-b border-border">
         <div className="container mx-auto px-4 lg:px-8">
-          <Link 
+          <Link
             href="/"
             className="inline-flex items-center text-sm text-muted-foreground hover:text-foreground mb-8 transition-colors"
           >
@@ -51,7 +51,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
               <img
                 src={product.image || "/placeholder.svg"}
                 alt={product.name}
-                className="w-full h-full object-cover grayscale"
+                className="w-full h-full object-cover"
               />
             </div>
 
@@ -71,7 +71,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
               <div className="pt-6 border-t border-border">
                 <h2 className="font-medium text-lg mb-6">Specifications</h2>
-                
+
                 <div className="grid grid-cols-2 gap-6">
                   <div>
                     <p className="text-sm text-muted-foreground mb-1">Color</p>
